@@ -34,8 +34,34 @@ def renderPage2():
 
 @app.route('/page3',methods=['GET','POST'])
 def renderPage3():
-    session["favoriteColor"]=request.form['favoriteColor']
-    return render_template('page3.html')
+    session["age"]=request.form['age']
+    states = get_state_options 
+    return render_template('page3.html', state_options = states)
     
+@app.route('/page4',methods=['GET','POST'])
+def renderPage4():
+    session["state"]=request.form['state']
+    return render_template('page4.html')    
+
+#select state 
+def get_state_options():
+    with open('state.json') as scores_data:
+        state = json.load(scores_data)
+    #select state 
+
+def get_state_options():
+    with open('state.json') as scores_data:
+        state = json.load(scores_data)
+    states=[]
+    for c in state:
+        if c["State"]["Code"] not in states:
+            states.append(c["State"]["Code"])
+    print(states)        
+    options=""
+    for s in states:
+        options += Markup("<option value=\"" + s + "\">" + s + "</option>") #Use Markup so <, >, " are not escaped lt, gt, etc.
+    return options
+
+
 if __name__=="__main__":
     app.run(debug=False)
