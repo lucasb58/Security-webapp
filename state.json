@@ -1,258 +1,253 @@
-{
-	"State": {
+[
+
+	{
       "Code": "AL",
-      "Name": "Alabama"
+      "Name": "Alabama",
+	  "Admission": 22
     },
-	"State": {
+	{
       "Code": "AK",
-      "Name": "Alaska"
+      "Name": "Alaska",
+	  "Admission": 49
     },
-	"State": {
-      "Code": "AS",
-      "Name": "American Samoa"
-    },
-	"State": {
+	 {
       "Code": "AZ",
-      "Name": "Arizona"
+      "Name": "Arizona",
+	  "Admission": 48
     },
-	"State": {
+	 {
       "Code": "AR",
-      "Name": "Arkansas"
+      "Name": "Arkansas",
+	  "Admission": 25
     },
-	"State": {
+	 {
       "Code": "CA",
-      "Name": "California"
+      "Name": "California",
+	  "Admission": 31
     },
-	"State": {
+	 {
       "Code": "Co",
-      "Name": "Colorado"
+      "Name": "Colorado",
+	  "Admission": 38
     },
-	"State": {
-      "Code": "AL",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "CT",
-      "Name": "Connecticut"
+      "Name": "Connecticut",
+	  "Admission": 5
     },
-	"State": {
+	 {
       "Code": "DE",
-      "Name": "Delaware"
+      "Name": "Delaware",
+	  "Admission": 1
     },
-	"State": {
-      "Code": "DC",
-      "Name": "District Of Columbia"
-    },
-	"State": {
-      "Code": "FM",
-      "Name": "Federated States Of Micronesia"
-    },
-	"State": {
+	 {
       "Code": "FL",
-      "Name": "Florida"
+      "Name": "Florida",
+	  "Admission": 27
     },
-	"State": {
+	 {
       "Code": "GA",
-      "Name": "Georgia"
+      "Name": "Georgia",
+	  "Admission": 4
     },
-	"State": {
-      "Code": "GU",
-      "Name": "Guam"
-    },
-	"State": {
+	 {
       "Code": "HI",
-      "Name": "Hawaii"
+      "Name": "Hawaii",
+	  "Admission": 50
     },
-	"State": {
+	 {
       "Code": "ID",
-      "Name": "Alabama"
+      "Name": "Idaho",
+	  "Admission": 43
     },
-	"State": {
+	 {
       "Code": "IL",
-      "Name": "Alabama"
+      "Name": "Illinois",
+	  "Admission": 21
     },
-	"State": {
+	 {
       "Code": "IN",
-      "Name": "Alabama"
+      "Name": "Indiana",
+	  "Admission": 19
     },
-	"State": {
+	 {
       "Code": "IA",
-      "Name": "Alabama"
+      "Name": "Iowa",
+	  "Admission": 29
     },
-	"State": {
+	 {
       "Code": "KS",
-      "Name": "Alabama"
+      "Name": "Kansas",
+	  "Admission": 34
     },
-	"State": {
+	 {
       "Code": "KY",
-      "Name": "Alabama"
+      "Name": "Kentucky",
+	  "Admission": 15
     },
-	"State": {
+	 {
       "Code": "LA",
-      "Name": "Alabama"
+      "Name": "Louisianna",
+	  "Admission": 18
     },
-	"State": {
+	 {
       "Code": "ME",
-      "Name": "Alabama"
+      "Name": "Maine",
+	  "Admission": 23
     },
-	"State": {
-      "Code": "MH",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "MD",
-      "Name": "Alabama"
+      "Name": "Maryland",
+	  "Admission": 7
     },
-	"State": {
+	 {
       "Code": "MA",
-      "Name": "Alabama"
+      "Name": "Massachusetts",
+	  "Admission": 6
     },
-	"State": {
+	 {
       "Code": "MI",
-      "Name": "Alabama"
+      "Name": "Michigan",
+	  "Admission": 26
     },
-	"State": {
+	 {
       "Code": "MN",
-      "Name": "Alabama"
+      "Name": "Minnesota",
+	  "Admission": 32
     },
-	"State": {
+	 {
       "Code": "MS",
-      "Name": "Alabama"
+      "Name": "Mississippi",
+	  "Admission": 20
     },
-	"State": {
+	 {
       "Code": "MO",
-      "Name": "Alabama"
+      "Name": "Missouri",
+	  "Admission": 24
     },
-	"State": {
+	 {
       "Code": "MT",
-      "Name": "Alabama"
+      "Name": "Montana",
+	  "Admission": 41
     },
-	"State": {
+	 {
       "Code": "NE",
-      "Name": "Alabama"
+      "Name": "Nebraska",
+	  "Admission": 37
     },
-	"State": {
+	 {
       "Code": "NV",
-      "Name": "Alabama"
+      "Name": "Nevada",
+	  "Admission": 36
     },
-	"State": {
+	 {
       "Code": "NH",
-      "Name": "Alabama"
+      "Name": "New Hampshire",
+	  "Admission": 9
     },
-	"State": {
+	 {
       "Code": "NJ",
-      "Name": "Alabama"
+      "Name": "New Jersey",
+	  "Admission": 3
     },
-	"State": {
+	 {
       "Code": "NM",
-      "Name": "Alabama"
+      "Name": "New Mexico",
+	  "Admission": 47
     },
-	"State": {
+	 {
       "Code": "NY",
-      "Name": "Alabama"
+      "Name": "New York",
+	  "Admission": 11
     },
-	"State": {
+	 {
       "Code": "NC",
-      "Name": "Alabama"
+      "Name": "North Carolina",
+	  "Admission": 12
     },
-	"State": {
-      "Code": "AL",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "ND",
-      "Name": "Alabama"
+      "Name": "North Dakota",
+	  "Admission": 39
     },
-	"State": {
-      "Code": "NM",
-      "Name": "Alabama"
-    },
-	"State": {
-      "Code": "NY",
-      "Name": "Alabama"
-    },
-	"State": {
-      "Code": "NC",
-      "Name": "Alabama"
-    },
-	"State": {
-      "Code": "MP",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "OH",
-      "Name": "Alabama"
+      "Name": "Ohio",
+	  "Admission": 17
     },
-	"State": {
+	 {
       "Code": "OK",
-      "Name": "Alabama"
+      "Name": "Oklahoma",
+	  "Admission": 46
     },
-	"State": {
+	 {
       "Code": "OR",
-      "Name": "Alabama"
+      "Name": "Oregon",
+	  "Admission": 33
     },
-	"State": {
-      "Code": "PW",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "PA",
-      "Name": "Alabama"
+      "Name": "Pennsylvania",
+	  "Admission": 2
     },
-	"State": {
-      "Code": "PR",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "RI",
-      "Name": "Alabama"
+      "Name": "Rhode Island",
+	  "Admission": 13
     },
-	"State": {
+	 {
       "Code": "SC",
-      "Name": "Alabama"
+      "Name": "South Carolina",
+	  "Admission": 8
     },
-	"State": {
+	 {
       "Code": "SD",
-      "Name": "Alabama"
+      "Name": "South Dakota",
+	  "Admission": 40
     },
-	"State": {
+	 {
       "Code": "TN",
-      "Name": "Alabama"
+      "Name": "Tennessee",
+	  "Admission": 16
     },
-	"State": {
+	 {
       "Code": "TX",
-      "Name": "Alabama"
+      "Name": "Texas",
+	  "Admission": 28
     },
-	"State": {
+	 {
       "Code": "UT",
-      "Name": "Alabama"
+      "Name": "Utah",
+	  "Admission": 45
     },
-	"State": {
+	 {
       "Code": "VT",
-      "Name": "Alabama"
+      "Name": "Vermont",
+	  "Admission": 14
     },
-	"State": {
-      "Code": "VI",
-      "Name": "Alabama"
-    },
-	"State": {
+	 {
       "Code": "VA",
-      "Name": "Alabama"
+      "Name": "Virginia",
+	  "Admission": 10
     },
-	"State": {
+	 {
       "Code": "WA",
-      "Name": "Alabama"
+      "Name": "Washington",
+	  "Admission": 42
     },
-	"State": {
+	 {
       "Code": "WV",
-      "Name": "Alabama"
+      "Name": "West Virginia",
+	  "Admission": 35
     },
-	"State": {
+	 {
       "Code": "WI",
-      "Name": "Alabama"
+      "Name": "Wisconsin",
+	  "Admission": 30
     },
-	"State": {
+	 {
       "Code": "WY",
-      "Name": "Alabama"
-    },
-}
+      "Name": "Wyoming",
+	  "Admission": 44
+    }
+]

@@ -1,4 +1,6 @@
 import os
+import json
+from markupsafe import Markup
 from flask import Flask, url_for, render_template, request
 from flask import redirect
 from flask import session
@@ -30,32 +32,27 @@ def renderPage1():
 def renderPage2():
     session["firstName"]=request.form['firstName']
     session["lastName"]=request.form['lastName']
-    return render_template('page2.html')
+    states = get_state_options()
+    return render_template('page2.html', state_options=states)
 
 @app.route('/page3',methods=['GET','POST'])
 def renderPage3():
-    session["age"]=request.form['age']
-    states = get_state_options 
-    return render_template('page3.html', state_options = states)
+    session["state"]=request.form['state']
+    return render_template('page3.html')
     
 @app.route('/page4',methods=['GET','POST'])
 def renderPage4():
     session["state"]=request.form['state']
     return render_template('page4.html')    
 
-#select state 
+# select state
 def get_state_options():
-    with open('state.json') as scores_data:
-        state = json.load(scores_data)
-    #select state 
-
-def get_state_options():
-    with open('state.json') as scores_data:
-        state = json.load(scores_data)
+    with open('state.json') as states_data:
+        state = json.load(states_data)
     states=[]
     for c in state:
-        if c["State"]["Code"] not in states:
-            states.append(c["State"]["Code"])
+        if c["Code"] not in states:
+            states.append(c["Code"])
     print(states)        
     options=""
     for s in states:
