@@ -3,13 +3,13 @@
 {% block title %}Page 3--Now we know everything!{% endblock %}
 
 {% block content %}
-  <h1>Now I know:</h1>
+  <h1>Response:</h1>
 
 <ul>
  <li> Your first name is: {{ session['firstName'] }} </li>
  <li> Your last name is: {{ session['lastName'] }} </li>
  <li> You selected this state: {{ session['state'] }} </li>
- <li> Your answer is: {{ session['state'] }} </li>
+ <li> Your answer is: {{ session['entry'] }} </li>
  
 </ul>
 
