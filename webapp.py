@@ -43,11 +43,11 @@ def renderPage3():
 @app.route('/page4',methods=['GET','POST'])
 def renderPage4():
     session["entry"]=request.form['entry']
-    questionare = check_answer(session["state"], session["entry"])
+    questionare = check_answer(session["state"] , session["entry"] )
     if questionare == 1:
         line = " Your answer was correct"
     elif questionare == 0: 
-        line = " Your answer was wrong "    
+        line = "Your answer was wrong"    
     return render_template('page4.html', qoute = line)    
 
 # select state
@@ -57,8 +57,7 @@ def get_state_options():
     states=[]
     for c in state:
         if c["Code"] not in states:
-            states.append(c["Code"])
-    print(states)        
+            states.append(c["Code"])       
     options=""
     for s in states:
         options += Markup("<option value=\"" + s + "\">" + s + "</option>") #Use Markup so <, >, " are not escaped lt, gt, etc.
@@ -68,16 +67,12 @@ def get_state_options():
 def check_answer(state, entry):
     with open('state.json') as states_data:
         states = json.load(states_data)  
-    answer = {}
     answer = 0
     for a in states:
     	if a["Code"] == state and a["Admission"] == entry:
             answer = 1
+    print(answer)        
     return answer
     	
-    		  
-     
-
-
 if __name__=="__main__":
     app.run(debug=False)
