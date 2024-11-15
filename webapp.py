@@ -69,7 +69,7 @@ def check_answer(state, entry):
         states = json.load(states_data)  
     answer = 0
     for a in states:
-    	if a["Code"] == state and a["Admission"] == entry:
+    	if a["Code"] == state and int(a["Admission"]) == int(entry):
             answer = 1
     print(answer)        
     return answer
