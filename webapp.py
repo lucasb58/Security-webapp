@@ -30,19 +30,23 @@ def renderPage1():
 
 @app.route('/page2',methods=['GET','POST'])
 def renderPage2():
-    session["firstName"]=request.form['firstName']
-    session["lastName"]=request.form['lastName']
+    if "firstName" not in session:   
+        session["firstName"]=request.form['firstName']
+    if "lastName" not in session:   
+        session["lastName"]=request.form['lastName']    
     states = get_state_options()
     return render_template('page2.html', state_options=states)
 
 @app.route('/page3',methods=['GET','POST'])
 def renderPage3():
-    session["state"]=request.form['state']
+    if "state" not in session:  
+        session["state"]=request.form['state']
     return render_template('page3.html')
     
 @app.route('/page4',methods=['GET','POST'])
 def renderPage4():
-    session["entry"]=request.form['entry']
+    if "entry" not in session:  
+        session["entry"]=request.form['entry']
     questionare = check_answer(session["state"] , session["entry"] )
     if questionare == 1:
         line = " Your answer was correct"
